@@ -1,0 +1,457 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    /* font-family: 'Protest Riot', sans-serif; */
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+.page1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    position: absolute;
+
+    z-index: 9;
+    padding: 3% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100vw;
+    
+   
+    
+    /* background-color: rebeccapurple; */
+}
+
+.centernav {
+    display: flex;
+    gap: 55px;
+    border-bottom: 1px solid black;
+    line-height: 3;
+    
+    
+
+
+
+}
+
+.centernav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Protest Strike', sans-serif;
+    
+
+
+
+}
+.centernav a:hover{
+    background-color: #FCDA69;
+    padding: 0px 0px;
+    border-radius: 15px;
+}
+
+.navbar>button {
+    position: relative;
+    right: 20px;
+    height: 40px;
+    width: 13%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.navbar>button>img{
+    position: relative;
+    top: 2.5px;
+    left: 65px;
+}
+
+
+
+
+.page1>img {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    width: 38%;
+    transform: translateY(-50%);
+}
+
+
+.text{
+
+    position: absolute;
+    top: 7.3%;
+    left: 4%;
+    height: 40%;
+    width: 50%;
+    padding: 2% 3%;
+    scale: 1.1;
+    
+    /* background-color: blueviolet; */
+}
+.text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+}
+.text h4{
+    color: gray;
+    margin-top: 25px;
+    /* background-color: rebeccapurple; */
+}
+.button{
+    position: relative;
+    left: 0%;
+    bottom: -3%;
+    height: 15%;
+    width: 100%;
+    /* background-color: green; */
+    padding: 10px 22px;
+}
+#btn1{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(126, 157, 250);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-left: 3px;
+    
+}
+#btn2{
+    margin-left: 100px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    
+}
+.text>h3{
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    color: gray;
+}
+
+.page2 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FCDA69;
+
+}
+.page2>#right{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    height: 90%;
+    transform: translateY(-50%);
+    width: 33%;
+    /* background-color: brown; */
+}
+#right>#box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 33.3%;
+    width: 100%;
+    /* background-color: indigo; */
+    border-top: 2px solid black;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+#box>.circle{
+    height: 5vh;
+    width: 2.5vw;
+    background-color: rgb(167, 88, 224);
+    text-align: center;
+    border-radius: 20px;
+}
+#left{
+    height: 70%;
+    width: 40%;
+    /* background-color: indigo; */
+}
+#left>h4{
+    position: absolute;
+    top: 9.5%;
+    left: 2.4%;
+    transform: rotate(-25deg);
+    color: rgb(126, 157, 250);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+
+}
+#left>#service{
+    padding: 12% 12%;
+}
+#left>#service2{
+    position: relative;
+    top: -15%;
+    left: 2%;
+    padding: 5% 10%;
+    /* background-color: white; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(97, 93, 93);
+
+}
+#service h1{
+    font-size: 52px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.page2>img{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    width: 10%;
+
+}
+.page3{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+#project1{
+    display: flex;
+    position: relative;
+    bottom: -12%;
+    height: 70%;
+    width: 27%;
+    /* background-color: gray; */
+}
+#project2{
+    position: relative;
+    transform: translateY(-20%);
+    height: 70%;
+    width: 27%;
+    /* background-color: pink; */
+}
+#project3{
+    position: relative;
+    bottom: -12%;
+    height: 70%;
+    width: 27%;
+    /* background-color: gray; */
+}
+.page3>h1{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    font-family: 'Protest Riot', sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.page3>h4{
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    transform: rotate(-18deg);
+    color: gray;
+
+}
+.page3>#project1{
+    font-family: 'Poppins', sans-serif;
+    padding: 1% 1%;
+    line-height: 1.4;
+    border-top: 2px solid black;
+    
+}
+.page3>#project2{
+    font-family: 'Poppins', sans-serif;
+    padding: 1% 1%;
+    line-height: 1.4;
+    border-top: 2px solid black;
+    
+}
+.page3>#project3{
+    font-family: 'Poppins', sans-serif;
+    padding: 1% 1%;
+    line-height: 1.4;
+    border-top: 2px solid black;
+    
+}
+.pcircle1>img{
+    position: absolute;
+    top: 5.7%;
+    right: 5%;
+    background-color: rgb(126, 157, 250);
+    padding: 2%;
+    border: none;
+    border-radius: 18px;
+}
+.pcircle2>img{
+    position: absolute;
+    top: 5.7%;
+    right: 5%;
+    background-color: rgb(126, 157, 250);
+    padding: 2%;
+    border: none;
+    border-radius: 18px;
+}
+.pcircle3>img{
+    position: absolute;
+    top: 5.7%;
+    right: 5%;
+    background-color: rgb(126, 157, 250);
+    padding: 2%;
+    border: none;
+    border-radius: 18px;
+}
+#project1>img{
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    height: 20px;
+    width: 80%;
+    height: 74%;
+    object-fit: cover;
+    border: 1.5px solid gray;
+}
+#project2>img{
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    height: 20px;
+    width: 80%;
+    height: 74%;
+    object-fit: cover;
+    border: 1.5px solid gray;
+}
+#project3>img{
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    height: 20px;
+    width: 80%;
+    height: 74%;
+    object-fit: cover;
+    border: 1.5px solid gray;
+}
+.page3>img{
+    position: absolute;
+    display: flex;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 220px;
+    width: 10%;
+    
+}
+.page4{
+    height: 100vh;
+    width: 100vw;
+    background-color:  #FCDA69;
+}
+.page4>#page4left{
+    position: relative;
+    left: 7%;
+    top: 13%;
+    height: 77%;
+    width: 33%;
+    /* background-color: red; */
+}
+.page4>#page4right{
+   position: relative;
+   height: 77%;
+   width: 33%;
+   /* background-color: blue; */
+   right: -62%;
+   bottom: 64%;
+}
+.page4>#page4left>h1{
+    position: relative;
+    top: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 4%;
+    font-size: 60px;
+    border-bottom: 1px solid gray;
+}
+.page4>#page4left>h3{
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 0.7%;
+    transform: rotate(-20deg);
+}
+
+.page4>#page4left>img{
+    position: absolute;
+    top: 75%;
+    left: 42%;
+    width: 10%;
+    background-color: rgb(126, 157, 250);
+    border-radius: 20px;
+
+}
+
+.page4>#page4right>#p1{
+    display: flex;
+    align-items: center;
+    color: black;
+    position: absolute;
+    top: 27%;
+    left: 9%;
+    border-top: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+
+    
+}
+.page4>#page4right>#p2{
+    display: flex;
+    align-items: center;
+    color: black;
+    position: absolute;
+    top: 70%;
+    left: 9%;
+    border-top: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+
+    
+}
+@media (max-width:600px) {
+    .centernav{
+        display: none;
+    }
+    
+}
+
+
+
+
+
