@@ -444,46 +444,47 @@ body {
 
     
 }
-@media (max-width:400px) {
+@media (max-width:300px) {
     
     .navbar>img{
-        margin-left: -15px;
+        margin-left: -10px;
         height: 40px;
-        width: 25vw;
+        width: 30%;
     }
     .centernav {
-       margin-right: 10%;
+       margin-right: 8%;
         gap: 13px;
-        line-height: 2;
+        line-height: 1.7;
     }
     .centernav a{
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
     .navbar #sbtn{
         display: none;
 
     }
     .text>h1{
-        font-size: 3em;
+        font-size: 1.7em;
         margin-left: -1.6%;
     }
     .text>h3{
+    font-size: 0.8em;
     transform: rotate(-20deg);
     position: absolute;
-    top: -1.5%;
-    left: -1%;
+    top: -1.7%;
+    left: -1.5%;
     color: gray;
 
     }
     .page1>img {
         position: absolute;
-        top: 38%;
+        top: 32%;
         right: 2%;
         width: 50%;
         
     }
     .text h4{
-        font-size: 0.7em;
+        font-size: 48%;
         width: 400%;
         color: gray;
         margin-top: 20px;
