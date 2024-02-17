@@ -444,7 +444,7 @@ body {
 
     
 }
-@media (max-width:500px) {
+@media (max-width:400px) {
     
     .navbar>img{
         margin-left: -15px;
@@ -452,12 +452,12 @@ body {
         width: 25vw;
     }
     .centernav {
-       margin-right: 50px;
-        gap: 17px;
+       margin-right: 10%;
+        gap: 13px;
         line-height: 2;
     }
     .centernav a{
-        font-size: 1em;
+        font-size: 0.7em;
     }
     .navbar #sbtn{
         display: none;
@@ -478,12 +478,12 @@ body {
     .page1>img {
         position: absolute;
         top: 38%;
-        right: 3%;
-        width: 38%;
+        right: 2%;
+        width: 50%;
         
     }
     .text h4{
-        font-size: 1em;
+        font-size: 0.7em;
         width: 400%;
         color: gray;
         margin-top: 20px;
